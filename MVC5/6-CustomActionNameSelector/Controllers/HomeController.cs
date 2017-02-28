@@ -39,7 +39,7 @@ namespace _6_CustomActionNameSelector.Controllers
         [ActionLength(7)]
         public ActionResult Test1()
         {
-            return Content("Sample"); // return edilen değer 6 hane ben yukarda 7 set ettim. 7 vee 7 den kucukse ise calısak.. Yani bu Çalışacaktır. 
+            return Content("Sample"); // return edilen değer 6 hane ben yukarda 7 set ettim. 7 ve 7 den kucukse ise calısak.. Yani bu Çalışacaktır. 
         }
 
         
