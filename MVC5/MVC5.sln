@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-MVCTemplateApp", "2-MVCTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-ActionResult", "3-ActionResult\3-ActionResult.csproj", "{A94E21EB-548C-4EA0-8459-4811F0D7C82E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-ActionMethodSelector", "4-ActionMethodSelector\4-ActionMethodSelector.csproj", "{898A4F68-0839-4670-896E-46058F2813A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-CustomActionMethodSelector", "5-CustomActionMethodSelector\5-CustomActionMethodSelector.csproj", "{1C527240-6B00-4095-998E-BA8D68E1D931}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{A94E21EB-548C-4EA0-8459-4811F0D7C82E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A94E21EB-548C-4EA0-8459-4811F0D7C82E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A94E21EB-548C-4EA0-8459-4811F0D7C82E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{898A4F68-0839-4670-896E-46058F2813A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{898A4F68-0839-4670-896E-46058F2813A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{898A4F68-0839-4670-896E-46058F2813A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{898A4F68-0839-4670-896E-46058F2813A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C527240-6B00-4095-998E-BA8D68E1D931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C527240-6B00-4095-998E-BA8D68E1D931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C527240-6B00-4095-998E-BA8D68E1D931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C527240-6B00-4095-998E-BA8D68E1D931}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

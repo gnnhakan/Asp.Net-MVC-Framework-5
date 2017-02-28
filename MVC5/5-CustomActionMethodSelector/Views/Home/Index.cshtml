@@ -1,0 +1,39 @@
+﻿@model dynamic
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <script>
+
+        function getCustomers() {
+            $.ajax({
+                url: "/Home/GetCustomer",
+                dataType: "json",
+                success: function (data) {
+                    for (var i = 0; i < data.length; i++) {
+                        $("#listCustomer").append("<li>"
+                            + data[i].CustomerName + "-"
+                            + data[i].CustomerSurName + "-"
+                            + data[i].SSN + "</li>");
+                    }
+                }
+            });
+        }
+
+    </script>
+</head>
+<body>
+<div>
+    <button onclick="getCustomers();">Get Customer</button>
+    <ul id="listCustomer"></ul>
+</div>
+</body>
+</html>
