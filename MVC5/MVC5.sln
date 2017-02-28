@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-ActionMethodSelector", "4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-CustomActionMethodSelector", "5-CustomActionMethodSelector\5-CustomActionMethodSelector.csproj", "{1C527240-6B00-4095-998E-BA8D68E1D931}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6-CustomActionNameSelector", "6-CustomActionNameSelector\6-CustomActionNameSelector.csproj", "{1DF0666A-E025-43AA-8A5B-9AD4AE90478E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{1C527240-6B00-4095-998E-BA8D68E1D931}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C527240-6B00-4095-998E-BA8D68E1D931}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C527240-6B00-4095-998E-BA8D68E1D931}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DF0666A-E025-43AA-8A5B-9AD4AE90478E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DF0666A-E025-43AA-8A5B-9AD4AE90478E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DF0666A-E025-43AA-8A5B-9AD4AE90478E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DF0666A-E025-43AA-8A5B-9AD4AE90478E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
